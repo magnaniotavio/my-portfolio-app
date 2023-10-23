@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
+}
+
+.container {
+  margin-left: 15%;
+  margin-right: 15%;
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.main-content-container {
+  margin-left: 15%;
+  margin-right: 15%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+
+/* Additional styles for specific elements */
+.bg-primary {
+  background-color: #343a40 !important;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bg-dark {
+  background-color: #343a40 !important;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.carousel-item {
+  display: none;
+  margin-bottom: 2%;
+}
+
+.carousel-item.active {
+  display: block;
+}
+
+.carousel-control {
+  align-self: center;
+}
+
+
+.card {
+  margin-bottom: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  transition: opacity 0.3s ease-in-out;
+  border-top: 10px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-indicators {
+  display: flex;
+  margin-bottom: 2%;
+}
+
+.carousel-indicators li {
+  border-top: unset;
+  width: 10px;
+  border-bottom: unset;
+  border: 1px solid transparent;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-radius: 10px;
+  background-color: rgba(169, 29, 42, 0.4);
+  height: 10px;
+  width: 20px;
+}
+
+.carousel-indicators .active {
+  border-top: unset;
+  border-bottom: unset;
+  border: 1px solid transparent;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-radius: 10px;
+  background-color: #A91D2A;
+  height: 10px;
+  width: 10px
+}
+
+.card .carousel-control-prev {
+  /* Your custom styles for both Next and Previous buttons */
+  color: black;
+  margin-left: 44%;
+  margin-right: 10%;
+}
+
+.card .carousel-control-next {
+  color: black;
+}
+
+.card .carousel-control-prev:active,
+.card .carousel-control-next:active {
+  color: #ff5733;
+}
+
+
+.card:hover {
+  opacity: 0.8;
+  transform: translateY(-5px);
 }
