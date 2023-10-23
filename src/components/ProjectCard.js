@@ -22,9 +22,10 @@ export default function ProjectCard(props) {
                     border: "none",
                     boxShadow: "none",
                     padding: "0",
+                    color: "white",
                 }}
             >
-                <h4 className="m-0 mr-2"><h3 style={{ fontWeight: "bold" }}>| {props.name}</h3></h4>
+                <h4 className="m-0 mr-2"><h3 style={{ color: "white", fontWeight: "bold" }}>| {props.name}</h3></h4>
             </Button>            {isExpanded && (
                 <div id="card-content">
                     <Card>

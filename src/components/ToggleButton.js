@@ -21,9 +21,10 @@ export default function ToggleButton(props) {
                     border: "none",
                     boxShadow: "none",
                     padding: "0",
+                    color: "white",
                 }}
             >
-                <h3 className="m-0 mr-2"><h2 style={{ fontWeight: "bold" }}>| {props.name}</h2></h3>
+                <h3 className="m-0 mr-2"><h2 style={{ color: "white", fontWeight: "bold" }}>| {props.name}</h2></h3>
             </Button>            {isExpanded && props.content}
         </div>
     )
