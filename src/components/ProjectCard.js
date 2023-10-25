@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Card, Col } from "react-bootstrap";
+import { Button, Card, Col, Row } from "react-bootstrap";
 import Carousel from 'react-bootstrap/Carousel';
 
 export default function ProjectCard(props) {
@@ -16,35 +16,28 @@ export default function ProjectCard(props) {
                 onClick={handleDropdownToggle}
                 aria-expanded={isExpanded}
                 aria-controls="card-content"
-                id="card-dropdwon-button"
-                style={{
-                    background: "transparent",
-                    border: "none",
-                    boxShadow: "none",
-                    padding: "0",
-                    color: "white",
-                }}
+                id="card-dropdown-button"
             >
-                <h4 className="m-0 mr-2"><h3 style={{ color: "white", fontWeight: "bold" }}>| {props.name}</h3></h4>
-            </Button>            {isExpanded && (
-                <div id="card-content">
-                    <Card>
-                        <Card.Header style={{ textAlign: "center", fontWeight: "bold" }}><h1>{props.name}</h1></Card.Header>
-                        <Carousel>
-                            {props.imageSequence.map((p) => (
-                                <Carousel.Item key={p.imageUrl}>
-                                    <div style={{ display: 'flex' }}>
-                                        <Col md={6}>
-                                            <img src={p.imageUrl} alt={p.description} fluid style={{ width: '90%', maxHeight: '700px' }} />
-                                        </Col>
-                                        <Col md={5} style={{ paddingTop: '15px', width: '20%' }}>
-                                            <h4>{p.description}</h4>
-                                        </Col>
+                <h4 className="project-title">{props.name}</h4>
+            </Button>
+            {isExpanded && (
+                <div class="card-content">
+                    <Carousel>
+                        {props.imageSequence.map((p) => (
+                            <Carousel.Item key={p.imageUrl}>
+                                <Col md={10}>
+                                    <div className="project-images">
+                                        <img src={p.imageUrl} alt={p.description} />
                                     </div>
-                                </Carousel.Item>
-                            ))}
-                        </Carousel>
-                    </Card>
+                                    <div className="project-description" >
+                                        <div className="project-description">
+                                            <h7>{p.description}</h7>
+                                        </div>
+                                    </div>
+                                </Col>
+                            </Carousel.Item>
+                        ))}
+                    </Carousel>
                 </div>
             )}
         </div>
