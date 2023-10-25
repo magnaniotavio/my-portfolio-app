@@ -19,7 +19,7 @@ const App = () => {
       </Navbar>
       <div class="header">
         <Container>
-          <h3>Octavio Magnani's Portfolio</h3>
+          <h3>Octavio Magnani's Portfolioooo</h3>
           <p>Welcome to my portfolio website</p>
         </Container>
       </div>
