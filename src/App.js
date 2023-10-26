@@ -28,7 +28,7 @@ const App = () => {
       <div className="main-content-container">
         <ToggleButton name='About Me' content=
           {
-            <Col>
+            <Container>
               <div class="about-me">
                 <p>
                   I'm a self-taught web developer from São Paulo-SP (Brazil) seeking job opportunities in the field.
@@ -38,7 +38,7 @@ const App = () => {
                   Though my skills are mostly focused on JavaScript and frameworks like React and Angular, I am also confident in my ability to quickly learn new technologies and programming languages.
                 </p>
               </div>
-            </Col>
+            </Container>
           }
         />
         <ToggleButton name='Resumé' content=

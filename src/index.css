@@ -1,6 +1,7 @@
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  color: white;
 }
 
 body,
@@ -13,6 +14,9 @@ html {
 
 }
 
+.container {
+  color: white;
+}
 
 #root {
   background-color: black;
@@ -95,30 +99,28 @@ html {
 }
 
 
+.project-images {
+  width: 90%;
+  height: 50%;
+  align-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
 
-
-
+}
 
 .project-images img {
-  width: 100%;
-  /* Make the image fill the container */
-  height: auto;
-  display: block;
-  /* Center the image horizontally */
-  margin: 0 auto;
+  object-fit: cover;
 }
 
 .project-description {
-  max-width: 100%;
-  /* Allow text to take full width on smaller screens */
+  display: inline-block;
+  max-width: 80%;
+  vertical-align: top;
   padding: 1rem;
   color: white;
+  margin-left: 12%;
   text-align: left;
-  /* Align text to the left */
 }
-
-
-
 
 .carousel-control-prev,
 .carousel-control-next {
