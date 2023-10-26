@@ -100,23 +100,23 @@ html {
 
 
 .project-images img {
-  align-items: center;
-  justify-content: center;
-  width: 80%;
+  width: 100%;
+  /* Make the image fill the container */
   height: auto;
-  display: inline-block;
-  margin-left: 15%;
-
+  display: block;
+  /* Center the image horizontally */
+  margin: 0 auto;
 }
 
 .project-description {
-  display: inline-block;
-  max-width: 80%;
-  vertical-align: top;
+  max-width: 100%;
+  /* Allow text to take full width on smaller screens */
   padding: 1rem;
   color: white;
-  margin-left: 12%;
+  text-align: left;
+  /* Align text to the left */
 }
+
 
 
 
