@@ -1,7 +1,7 @@
 import './App.css';
 import ProjectCard from './components/ProjectCard';
 import { Project1, Project2, Project3, Project4 } from './components/MyProjects';
-import { Container, Row, Col, Navbar, Nav } from 'react-bootstrap';
+import { Container, Col, Navbar, Nav } from 'react-bootstrap';
 import ToggleButton from './components/ToggleButton';
 
 const App = () => {

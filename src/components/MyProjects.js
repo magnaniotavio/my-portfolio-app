@@ -1,4 +1,3 @@
-//import { image1, image2, image3 } from '../../src/images/project2/';
 import * as project1Images from '../../src/images/project1/images';
 import * as project2Images from '../../src/images/project2/images';
 import * as project3Images from '../../src/images/project3/images';

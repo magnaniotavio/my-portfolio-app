@@ -114,9 +114,9 @@ html {
 
 .project-description {
   display: inline-block;
-  max-width: 80%;
+  width: 80%;
+  height: 20%;
   vertical-align: top;
-  padding: 1rem;
   color: white;
   margin-left: 12%;
   text-align: left;

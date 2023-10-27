@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Card, Col, Row, Modal } from "react-bootstrap";
+import { Button, Col, Modal } from "react-bootstrap";
 import Carousel from 'react-bootstrap/Carousel';
 
 export default function ProjectCard(props) {
