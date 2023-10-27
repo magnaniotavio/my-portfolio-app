@@ -43,8 +43,9 @@ const App = () => {
         />
         <ToggleButton name='Resumé' content=
           {
-            <Col>
-            </Col>
+            <div class="resume-link">
+              <a href="https://drive.google.com/file/d/11a20ucWnIJ9QPE-bfxlMo_IyOU52usRv/view?usp=sharing">My Résume</a>
+            </div>
           }
         />
 
@@ -61,10 +62,10 @@ const App = () => {
 
         <ToggleButton name='Contact Info' content=
           {
-            <Container>
+            <div class="contact-info">
               <p>Email: otavio.magnani@gmail.com</p>
               <p>WhatsApp: +55 11 91600 4393</p>
-            </Container>
+            </div>
           }
         />
       </div>

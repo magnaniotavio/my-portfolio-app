@@ -78,8 +78,11 @@ html {
   justify-content: center;
 }
 
-.about-me {
+.about-me,
+.resume-link,
+.contact-info {
   text-align: center;
+  color: white;
 }
 
 .carousel {
