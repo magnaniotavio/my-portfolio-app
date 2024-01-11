@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio-app/static/css/main.8e4a7b56.css",
-    "main.js": "/my-portfolio-app/static/js/main.bd428fa3.js",
+    "main.css": "/my-portfolio-app/static/css/main.30482af0.css",
+    "main.js": "/my-portfolio-app/static/js/main.c4222fac.js",
     "static/js/787.3c86a6c9.chunk.js": "/my-portfolio-app/static/js/787.3c86a6c9.chunk.js",
     "static/media/climateimg3.png": "/my-portfolio-app/static/media/climateimg3.ce44a399af9a205bfe23.png",
     "static/media/climateimg2.png": "/my-portfolio-app/static/media/climateimg2.c9e919b59ee0439ef608.png",
@@ -37,12 +37,12 @@
     "static/media/climateimg1.png": "/my-portfolio-app/static/media/climateimg1.abae020021c47d647237.png",
     "static/media/angimg1.png": "/my-portfolio-app/static/media/angimg1.b5b7a6dd79e9bffad6d9.png",
     "index.html": "/my-portfolio-app/index.html",
-    "main.8e4a7b56.css.map": "/my-portfolio-app/static/css/main.8e4a7b56.css.map",
-    "main.bd428fa3.js.map": "/my-portfolio-app/static/js/main.bd428fa3.js.map",
+    "main.30482af0.css.map": "/my-portfolio-app/static/css/main.30482af0.css.map",
+    "main.c4222fac.js.map": "/my-portfolio-app/static/js/main.c4222fac.js.map",
     "787.3c86a6c9.chunk.js.map": "/my-portfolio-app/static/js/787.3c86a6c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e4a7b56.css",
-    "static/js/main.bd428fa3.js"
+    "static/css/main.30482af0.css",
+    "static/js/main.c4222fac.js"
   ]
 }
