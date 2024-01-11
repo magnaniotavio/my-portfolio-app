@@ -20,11 +20,10 @@ export default function ProjectCard(props) {
     return (
         <div className="card-dropdown">
             <Button
-                variant="outline-secondary"
+                variant="outline-primary"
                 onClick={handleDropdownToggle}
                 aria-expanded={isExpanded}
                 aria-controls="card-content"
-                id="card-dropdown-button"
             >
                 <h4 className="project-title">{props.name}</h4>
             </Button>

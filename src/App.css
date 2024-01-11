@@ -64,11 +64,21 @@ p {
     object-fit: cover !important;
 }
 
+
+
+
 .btn.btn-outline-secondary {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: transparent;
-    color: white;
+    border-color: transparent;
+    width: 100%;
+}
+
+.btn.btn-outline-primary {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
     border-color: transparent;
     width: 100%;
 }
@@ -79,6 +89,11 @@ p {
     color: white;
 }
 
+.btn.btn-outline-primary:hover {
+    background-color: lightcyan;
+    border-color: lightblue;
+    color: black;
+}
 
 .col-md-10 {
     margin-left: 2%;
@@ -102,7 +117,15 @@ p {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 4%;
-    margin-bottom: 10%;
+}
+
+
+@media (max-width: 650px) {
+    .carousel-item {
+        padding-top: 2%;
+        padding-bottom: 4%;
+        margin-bottom: 10%;
+    }
 }
 
 .project-title {
@@ -127,7 +150,7 @@ p {
 .project-description {
     display: inline-block;
     width: 80%;
-    height: fit-content;
+    height: 20%;
     vertical-align: top;
     color: white;
     margin-left: 12%;
