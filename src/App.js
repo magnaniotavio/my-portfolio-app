@@ -18,7 +18,7 @@ const App = () => {
       <div class="header">
         <Container>
           <h3>Octavio Magnani's Portfolio</h3>
-          <p>Welcome to my portfolio!</p>
+          <p>Welcome to my portfolio website</p>
         </Container>
       </div>
 
@@ -59,7 +59,7 @@ const App = () => {
         <ToggleButton name='Contact Info' content=
           {
             <div class="contact-info">
-              <p>Email: otavio.magnani@gmail.com</p>
+              <p>Email:  otavio.magnani@gmail.com</p>
               <p>WhatsApp: +55 11 91600 4393</p>
             </div>
           }

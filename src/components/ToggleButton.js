@@ -15,9 +15,8 @@ export default function ToggleButton(props) {
                 onClick={handleDropdownToggle}
                 aria-expanded={isExpanded}
                 aria-controls="card-content"
-                id="card-dropdwon-button"
             >
-                <h3 className="card-dropdown-project-title"><h2>{props.name}</h2></h3>
+                <h3 className="card-dropdown-section-title"><h2>{props.name}</h2></h3>
             </Button>            {isExpanded && props.content}
         </div>
     )
