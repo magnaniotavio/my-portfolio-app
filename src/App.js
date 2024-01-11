@@ -11,8 +11,8 @@ const App = () => {
     <div>
       <div class="links-container">
         <div class="links">
-          <p href="https://github.com/magnaniotavio" target="_blank">GitHub</p>
-          <p href="https://www.linkedin.com/in/otavio-magnani-59304227a/" target="_blank">LinkedIn</p>
+          <a href="https://github.com/magnaniotavio" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/otavio-magnani-59304227a/" target="_blank">LinkedIn</a>
         </div>
       </div>
       <div class="header">
