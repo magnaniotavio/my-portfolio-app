@@ -30,7 +30,7 @@ export default function ProjectCard(props) {
             </Button>
             {isExpanded && (
                 <div class="card-content">
-                    <Carousel>
+                    <Carousel touch={true} controls={props.imageSequence.length > 1}>
                         {props.imageSequence.map((p) => (
                             <Carousel.Item key={p.imageUrl}>
                                 <Col md={10}>
@@ -45,7 +45,7 @@ export default function ProjectCard(props) {
                                             <img src={selectedImage} alt="Enlarged View" style={{ width: '100%' }} />
                                         </Modal.Body>
                                     </Modal>
-                                    <div className="project-description" >
+                                    <div className="project-description">
                                         <div className="project-description">
                                             <h7>{p.description}</h7>
                                         </div>

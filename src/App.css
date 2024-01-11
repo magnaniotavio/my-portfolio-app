@@ -10,13 +10,22 @@ html {
     padding: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: black !important;
 
 }
 
-.container {
+.links-container {
+    text-align: center;
+}
+
+
+.links,
+p {
     color: white;
+    display: inline;
+    margin: 5%;
 }
+
 
 #root {
     background-color: black;
@@ -27,6 +36,7 @@ html {
     background: darkgreen;
     text-align: center;
     color: black;
+    width: 100%;
     padding-bottom: 1%;
     padding-top: 2%;
 }
@@ -35,9 +45,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 100%;
     padding-top: 2%;
     padding-bottom: 2%;
     background-color: black;
@@ -94,17 +102,19 @@ html {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 4%;
-    min-height: 600px;
+    margin-bottom: 10%;
 }
 
 .project-title {
     text-align: center;
-}
+    border-bottom: 2px solid #333;
+    /* Adjust the color and thickness as needed */
 
+}
 
 .project-images {
     width: 90%;
-    height: 50%;
+    height: 80%;
     align-content: center;
     margin-left: 15%;
     margin-right: 15%;
@@ -118,25 +128,20 @@ html {
 .project-description {
     display: inline-block;
     width: 80%;
-    height: 20%;
+    height: fit-content;
     vertical-align: top;
     color: white;
     margin-left: 12%;
     text-align: left;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-    color: white;
+body .carousel-control-prev,
+body .carousel-control-next {
+    color: green !important;
 }
 
 .carousel-indicators {
     bottom: -2rem;
-}
-
-.carousel-indicators button {
-    background-color: green !important;
-    border: 1px solid green !important;
 }
 
 .carousel-indicators button.active {
@@ -152,14 +157,28 @@ html {
     color: #ff5733;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: white;
-    padding: 10px;
-    border-radius: 5px;
+
+
+@media (max-width: 650px) {
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        background-image: none !important;
+        display: none !important;
+    }
+
+    .carousel-control-next-icon::before,
+    .carousel-control-prev-icon::before {
+        content: '▶';
+        display: block;
+        font-size: 2rem;
+        color: green !important;
+    }
+
 }
 
+/*
 .carousel-control-prev-icon:hover,
 .carousel-control-next-icon:hover {
     background-color: white;
-}
+} */

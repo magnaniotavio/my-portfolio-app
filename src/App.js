@@ -9,15 +9,12 @@ const App = () => {
 
   return (
     <div>
-      <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">Octavio Magnani's Portfolio</Navbar.Brand>
-          <Nav>
-            <Nav.Link href="https://github.com/magnaniotavio" target="_blank">GitHub</Nav.Link>
-            <Nav.Link href="https://www.linkedin.com/in/otavio-magnani-59304227a/" target="_blank">LinkedIn</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+      <div class="links-container">
+        <div class="links">
+          <p href="https://github.com/magnaniotavio" target="_blank">GitHub</p>
+          <p href="https://www.linkedin.com/in/otavio-magnani-59304227a/" target="_blank">LinkedIn</p>
+        </div>
+      </div>
       <div class="header">
         <Container>
           <h3>Octavio Magnani's Portfolio</h3>
@@ -59,7 +56,6 @@ const App = () => {
             </Col>
           }
         />
-
         <ToggleButton name='Contact Info' content=
           {
             <div class="contact-info">
