@@ -18,7 +18,7 @@ const App = () => {
       <div class="header">
         <Container>
           <h3>Octavio Magnani's Portfolio</h3>
-          <p>Welcome to my portfolio website</p>
+          <p>Welcome to my portfolio!</p>
         </Container>
       </div>
 
