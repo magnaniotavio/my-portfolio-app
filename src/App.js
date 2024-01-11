@@ -12,7 +12,7 @@ const App = () => {
       <div class="links-container">
         <div class="links">
           <a href="https://github.com/magnaniotavio" target="_blank">GitHub</a>
-          <a href="https://www.linkedin.com/in/otavio-magnani-59304227a/" target="_blank">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/otavio-magnani-59304227a/" target="_blank">Linkedin</a>
         </div>
       </div>
       <div class="header">
