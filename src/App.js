@@ -59,7 +59,7 @@ const App = () => {
         <ToggleButton name='Contact Info' content=
           {
             <div class="contact-info">
-              <p>Email: otavio.magnani@gmail.com</p>
+              <p>Email:  otavio.magnani@gmail.com</p>
               <p>WhatsApp: +55 11 91600 4393</p>
             </div>
           }
